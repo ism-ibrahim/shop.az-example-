@@ -1,19 +1,18 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 .imgbox {
   overflow: hidden;
 }
-
 .imgbox img {
   width: 100%;
 }
 
 section {
   padding: 80px 0;
-  background-color: #ffff;
+  background-color: white;
 }
 
 header {
@@ -21,55 +20,43 @@ header {
   z-index: 1;
   width: 100%;
   padding: 20px 0px 5px;
-  border: 1.4px solid #cabcff9d;
+  border: 1.4px solid rgba(202, 188, 255, 0.6156862745);
 }
-
 header menu h3 {
   font-size: 18px;
   font-weight: 700;
   padding: 0px 24px;
 }
-
 header menu h4 {
-  border: 1px solid #0000;
+  border: 1px solid #9c9c9c;
   border-radius: 5px;
   padding: 4px;
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 0px 20px 0px;
 }
 
 footer {
   padding: 10px 0;
 }
-
 footer h1, footer h2, footer h3 {
   font-size: 18px;
   color: #212529;
   cursor: pointer;
 }
-
 footer h1 {
   margin: 20px 0 10px 10px;
 }
-
 footer h2, footer h3 {
   display: inline-block;
   margin: 5px 0 20px 10px;
 }
-
 footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 footer ul li {
   margin: 10px;
 }
-
 footer ul li .icon {
   background-color: #000;
   color: #fff;
@@ -80,23 +67,19 @@ footer ul li .icon {
   cursor: pointer;
   font-size: 18px;
 }
-
 footer ul li .icon i {
   cursor: pointer;
 }
-
 @media screen and (min-width: 576px) {
   footer h2, footer h3 {
     margin: 0 0 20px 10px;
   }
 }
-
 @media screen and (min-width: 768px) {
   footer h2, footer h3 {
     margin: 20px 0 20px 10px;
   }
 }
-
 @media screen and (min-width: 992px) {
   footer h2, footer h3 {
     margin: 20px 0 20px 10px;
@@ -105,14 +88,12 @@ footer ul li .icon i {
 
 #shopaz {
   padding: 50px 30px 20px 20px;
-  border: 1.4px solid #cabcff9d;
+  border: 1.4px solid rgba(202, 188, 255, 0.6156862745);
 }
-
 #shopaz .imgbox {
   width: 180px;
   padding: 20px;
 }
-
 #shopaz .box input {
   margin-top: 18px;
   font-size: 18px;
@@ -120,11 +101,18 @@ footer ul li .icon i {
   height: 42px;
   border: 1px solid #9c9c9c;
 }
-
+#shopaz .box ul {
+  display: flex;
+}
 #shopaz .box ul li {
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  padding: 10px;
   display: inline-block;
-  font-size: 20px;
-  margin: 25px 20px 0px;
+  font-size: 15px;
+  margin: 19px 3px 20px 20px;
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+#shopaz .box ul .icon {
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
